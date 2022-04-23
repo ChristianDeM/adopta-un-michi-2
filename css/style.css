@@ -1,5 +1,54 @@
-body {
-  background-color: aqua;
+h1 {
+  color: black;
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: black;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: 30px;
+}
+
+.boxbaner {
+  background-color: #fcfcfc;
+  opacity: 1;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #fcfcfc 40px), repeating-linear-gradient(#d7d7d755, #d7d7d7);
+}
+.boxbaner .baner {
+  height: 650px;
+}
+
+.boxabout {
+  background: white;
+  background: radial-gradient(circle, white 0%, #fbffc6 100%);
+}
+.boxabout .about {
+  height: 650px;
+}
+
+.boxgaleria {
+  background: white;
+  background: radial-gradient(circle, white 0%, #fbffc6 100%);
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+.boxgaleria h3 {
+  font-size: 45px;
+}
+.boxgaleria .galeria {
+  height: 650px;
+}
+
+.adoptedbox .boximg {
+  background-color: #3f3f3f;
 }
 
 /*# sourceMappingURL=style.css.map */
