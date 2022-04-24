@@ -6,8 +6,9 @@ h1 {
 
 h2 {
   color: black;
-  font-size: 50px;
-  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-family: "Water Brush", cursive;
+  font-weight: 900;
 }
 
 p {
@@ -23,7 +24,10 @@ p {
   background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #fcfcfc 40px), repeating-linear-gradient(#d7d7d755, #d7d7d7);
 }
 .boxbaner .baner {
-  height: 650px;
+  height: 750px;
+}
+.boxbaner img {
+  transform: scaleX(-1);
 }
 
 .boxabout {
@@ -31,7 +35,7 @@ p {
   background: radial-gradient(circle, white 0%, #fbffc6 100%);
 }
 .boxabout .about {
-  height: 650px;
+  height: 750px;
 }
 
 .boxgaleria {
@@ -44,11 +48,14 @@ p {
   font-size: 45px;
 }
 .boxgaleria .galeria {
-  height: 650px;
+  height: 750px;
 }
 
 .adoptedbox .boximg {
   background-color: #3f3f3f;
+}
+.adoptedbox .red {
+  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */

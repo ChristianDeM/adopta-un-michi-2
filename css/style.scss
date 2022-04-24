@@ -10,13 +10,14 @@ h1{
 
 h2{
     color: black;
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif; 
+    font-size: 60px;
+    font-family: 'Water Brush', cursive; 
+    font-weight: 900;
 }
 
 
-$tamañoA:650px;
-$tamañoB:750px;
+$tamañoA:750px;
+$tamañoB:50px;
 
 p{
     font-size: 20px;
@@ -33,6 +34,9 @@ p{
        
         height: $tamañoA;
     }  
+    img{
+        transform: scaleX(-1);
+    }
 }
 
 .boxabout{
@@ -41,6 +45,7 @@ p{
     .about{    
         height: $tamañoA;
     }
+   
 }
 
 .boxgaleria{
@@ -60,5 +65,8 @@ p{
 .adoptedbox{
     .boximg{
         background-color: rgb(63, 63, 63);
+    }
+    .red{
+        background-color: red;
     }
 }
