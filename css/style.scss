@@ -4,14 +4,15 @@ body{
 
 h1{
     color: black;
-    font-size: 70px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: bold;
 }
 
 h2{
     color: black;
     font-size: 60px;
-    font-family: 'Water Brush', cursive; 
+    font-family: 'Caveat Brush', cursive;; 
     font-weight: 900;
 }
 
@@ -20,18 +21,16 @@ $tamañoA:750px;
 $tamañoB:50px;
 
 p{
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Caveat Brush', cursive;
     margin: 30px;
 }
 
 .boxbaner{
-    background-color: #fcfcfc;
-    opacity: 1;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fcfcfc 40px ), repeating-linear-gradient( #d7d7d755, #d7d7d7 );
-    .baner{
-       
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(251,255,198,1) 100%);
+    .baner{      
         height: $tamañoA;
     }  
     img{
