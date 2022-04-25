@@ -12,6 +12,12 @@ h2 {
   font-weight: 900;
 }
 
+h4 {
+  font-size: 35;
+  font-family: "Caveat Brush", cursive;
+  font-weight: bold;
+}
+
 p {
   font-size: 30px;
   font-weight: 400;
@@ -37,6 +43,10 @@ p {
 .boxabout .about {
   height: 750px;
 }
+.boxabout i {
+  color: black;
+  font-size: 70px;
+}
 
 .boxgaleria {
   background: white;
@@ -50,12 +60,20 @@ p {
 .boxgaleria .galeria {
   height: 750px;
 }
+.boxgaleria .card-title {
+  font-family: "Caveat Brush", cursive;
+  font-size: 35px;
+}
 
 .adoptedbox .boximg {
   background-color: #3f3f3f;
 }
 .adoptedbox .red {
   background-color: red;
+}
+
+.boxcontacto {
+  height: 750px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -15,6 +15,11 @@ h2{
     font-family: 'Caveat Brush', cursive;; 
     font-weight: 900;
 }
+h4{
+    font-size: 35;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: bold;
+}
 
 
 $tamañoA:750px;
@@ -44,6 +49,10 @@ p{
     .about{    
         height: $tamañoA;
     }
+    i{
+        color: black;
+        font-size: 70px;
+    }
    
 }
 
@@ -59,6 +68,10 @@ p{
     .galeria{
         height: $tamañoA;   
     }
+    .card-title{
+        font-family: 'Caveat Brush', cursive;
+        font-size: 35px;
+    }
 }
 
 .adoptedbox{
@@ -68,4 +81,9 @@ p{
     .red{
         background-color: red;
     }
+}
+
+
+.boxcontacto{
+    height: $tamañoA;
 }
